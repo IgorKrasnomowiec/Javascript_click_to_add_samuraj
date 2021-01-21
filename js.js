@@ -1,11 +1,16 @@
 const btn = document.querySelector(`button`);
 
-let count = 0;
+let count = 1;
 btn.addEventListener(`click`, () => {
   const div = document.createElement(`div`);
+  if (count % 5 == 0) {
+    console.log(`5 element`);
+    div.classList.add(`circle`);
+  }
+
   document.body.appendChild(div);
-  count += 1;
   div.textContent = `${count}`;
-  console.log(div);
+  count += 1;
 });
-// comment
+
+//program dodaje klase "circle" co 5 elementowi

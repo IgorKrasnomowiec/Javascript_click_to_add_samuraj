@@ -11,6 +11,7 @@ div {
   float: left;
   text-align: center;
   line-height: 30px;
+  border: 1px solid black;
 }
 .circle {
   background-color: white;
