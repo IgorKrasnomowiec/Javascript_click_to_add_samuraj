@@ -8,3 +8,4 @@ btn.addEventListener(`click`, () => {
   div.textContent = `${count}`;
   console.log(div);
 });
+// comment
